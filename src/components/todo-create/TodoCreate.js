@@ -12,7 +12,7 @@ const TodoCreate = () => {
     }
 
     return (
-        <form className='todo-form' onSubmit={handSubmit}>
+        <form className='todo-form' onSubmit={handleSubmit}>
             <input type='text'/>
             <button type="submit">Add</button>
         </form>
